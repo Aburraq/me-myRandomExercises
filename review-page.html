@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Practice</title>
+    <link rel="stylesheet" href="./css/review-page-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      
+      <div class="ty-image">
+        
+        <!-- TY d-none to be removed -->
+        <img src="./img/illustration-thank-you.svg" alt="" class="ty d-none">
+      </div>
+
+      <!-- submitted to be added -->
+        <div class="ty-submit icon">
+          <!-- d-none to be added -->
+            <img src="./img/icon-star.svg" alt="star icon" class="initial">
+        <!-- d-none to be removed the button name in span will be adjusted-->
+        <span class="ty d-none">You selected <span id="rating"></span> out of 5</span>
+
+        </div>
+
+        <!-- d-none will be added -->
+        <h1 class="initial header">How did we do?</h1>
+
+        <!-- d-none will be removed -->
+        <h1 class="ty header centered d-none">Thank you!</h1>
+        
+        <!-- d-none will be added -->
+        <p class="initial paragraph">
+        Please let us know how we did with your support request. All
+        feedback is appreciated to help us improve our offering!
+        </p>
+
+        <!-- d-none will be removed -->
+        <p class="ty paragraph d-none">
+          We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+
+        <div class="initial list">
+            <button class="list-item" name="1">1</button>
+            <button class="list-item" name="2">2</button>
+            <button class="list-item" name="3">3</button>
+            <button class="list-item" name="4">4</button>
+            <button class="list-item" name="5">5</button>
+
+        </div>
+        <button class="initial button" type="button" id="button">SUBMIT</button>
+
+    </div>
+
+                
+    <script src="./js/review-page.js"></script>
+  </body>
+</html>
