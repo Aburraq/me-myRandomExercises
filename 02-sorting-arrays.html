@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- BOOTSTRAP CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>City</title>
+    </head>
+    <body class="p-4 bg-dark text-warning">
+        <h1 class="text-center text-warning mb-4">City</h1>
+
+        <div class="input-group mb-4">
+            <input type="text" class="form-control bg-warning" placeholder="City's Name" aria-label="city" id="input">
+            <button class="btn btn-outline-warning" type="button" id="btnAdd">Add City</button>
+        </div>
+
+        <div class="text-center">
+            <div class="btn-group mb-3">
+                <button class="btn btn-outline-warning" type="button" id="btnSort">Sort</button>
+                <button class="btn btn-outline-warning" type="button" id="btnReverse">Reverse</button>
+                <button class="btn btn-outline-warning" type="button" id="btnRemoveFirst">Remove First</button>
+                <button class="btn btn-outline-warning" type="button" id="btnRemoveLast">Remove Last</button>
+                <button class="btn btn-outline-warning" type="button" id="btnRemoveAll">Remove All</button>
+                <button class="btn btn-outline-warning" type="button" id="btnMix">Mix</button>
+            </div>
+        </div>
+
+
+        <ul id="list">
+            
+        </ul>
+
+        <script src="./js/02-sorting-arrays.js"></script>
+    </body>
+</html>
