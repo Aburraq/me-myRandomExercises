@@ -9,3 +9,5 @@ Whole story started with a need to sort data. Thus, name is sorting-arrays :)
 I used bootstrap to review a few topics, and javascript to maintain operations.
 ## Exercise 3:
 I have seen a rock paper scissors game exercise. I love games, so I just could not resist to code it. Ofc added lots of style and array properties to make it more advanced project. You can see the exercise instructions here: https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
+## Exercise 4:
+Today I was out of exercise and searched on google for an exercise. Well here i have coded quintessential temperature convertor code. I really enjoy styling it.
