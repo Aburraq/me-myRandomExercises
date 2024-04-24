@@ -7,3 +7,5 @@ I found an example about array mutators.
 Basically, city name is added, added city names can be sorted, reverted, removed (partially or wholely) and the most difficult one mixed. 
 Whole story started with a need to sort data. Thus, name is sorting-arrays :)
 I used bootstrap to review a few topics, and javascript to maintain operations.
+## Exercise 3:
+I have seen a rock paper scissors game exercise. I love games, so I just could not resist to code it. Ofc added lots of style and array properties to make it more advanced project. You can see the exercise instructions here: https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
