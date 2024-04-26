@@ -12,5 +12,9 @@ I have seen a rock paper scissors game exercise. I love games, so I just could n
 ## Exercise 4:
 Today I was out of exercise and searched on google for an exercise. Well here i have coded quintessential temperature convertor code. I really enjoy styling it.
 ## Exercise 5:
+<<<<<<< HEAD
 After spending some time on checking for new exercise, i decided to code time instead of spending. So here I have a nice digital clock. It was fun to code blinking columns by using setInterval().
 
+=======
+I decided to code something more useful for others as well. This is my page visit counter code. It counts how many times you have visited that page by storing your visits in local storage.
+>>>>>>> 8774a8c6875156cced95f5d80abf5d0eedb82e22
