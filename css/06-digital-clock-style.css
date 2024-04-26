@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "digital-clock";
+    src: url(../fonts/digital-7.ttf);
+}
+html,
+body {
+    min-height: 100vh;
+}
+#clock{
+    font-family: "digital-clock";
+    font-size: 3rem;
+    background-color: rgb(90, 22, 22);
+    padding: 24px;
+    color: rgb(42, 42, 42);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    font-family: "digital-clock";
+    font-size: 4rem;
+}
+.hidden{
+    opacity: 0;
+}
