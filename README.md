@@ -15,6 +15,8 @@ Today I was out of exercise and searched on google for an exercise. Well here i 
 I decided to code something more useful for others as well. This is my page visit counter code. It counts how many times you have visited that page by storing your visits in local storage.
 ## Exercise 6:
 After spending some time on checking for new exercise, i decided to code time instead of spending. So here I have a nice digital clock. It was fun to code blinking columns by using setInterval().
-## Exercise 7
+## Exercise 7:
 I decided to create the fontawesome's search page. It is reactive and changes according to screen size. I used media query to do that.
+## Exercise 8:
+In this exercise, I created a dynamic table manipulation tool. You can add new entries by filling out the name and grade fields and clicking the "+ADD" button. Entries can be updated or removed by clicking the corresponding icons in each row. Thus users can add, update, or remove rows as well as cancel the opertaions from the table. I used HTML, CSS (Bootstrap), and JavaScript for this project. 
 
