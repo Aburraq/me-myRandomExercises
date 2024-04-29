@@ -19,4 +19,5 @@ After spending some time on checking for new exercise, i decided to code time in
 I decided to create the fontawesome's search page. It is reactive and changes according to screen size. I used media query to do that.
 ## Exercise 8:
 In this exercise, I created a dynamic table manipulation tool. You can add new entries by filling out the name and grade fields and clicking the "+ADD" button. Entries can be updated or removed by clicking the corresponding icons in each row. Thus users can add, update, or remove rows as well as cancel the opertaions from the table. I used HTML, CSS (Bootstrap), and JavaScript for this project. 
-
+## Exercise 9: 
+I created an offcanvas bottom of the page explaining to the user website's privacy policy. User can accept or reject the policy. If it is rejected or closed it will be off for 5 seconds and then reappear. Also User's action is stored in local storage to be used legally. 
