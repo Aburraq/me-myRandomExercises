@@ -1,0 +1,96 @@
+:root{
+     --bg1: #c89666;
+     --bg2:  #e1b382;
+     --bg3: #2d545e;
+}
+body{
+    background-color: var(--bg1);
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: var(--bg2);
+    padding: 5px 0px 5px 15px;
+    display: flex;
+    outline: none;
+    border: none;
+}
+#input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-bottom: 1px;
+}
+#button{
+    font-size: 12px;
+    border: none;
+    outline:none;
+    width: 50px;
+    margin-right: 5px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: var(--bg3);
+    color: var(--bg2);
+}
+#container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#divContainer{
+    width: 70vh;
+    height: 70vh;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sketch {
+    background-color: white;
+}
+.button-container{
+    display: flex;
+    gap: 2px;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.409);
+    cursor: pointer;
+    height: 20px;
+}
+#red{
+
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(255, 0, 0, 0.712);
+}
+#green{
+
+    background-color: rgba(0, 128, 0, 0.648);
+}
+#blue{
+
+    background-color: rgba(0, 0, 255, 0.616)
+}
+#white{
+
+    background-color: white;
+}
+#random{
+    background: linear-gradient(45deg, hsla(0, 100%, 50%, 0.422), rgba(0, 128, 0, 0.349), rgba(0, 0, 255, 0.235));
+}
+#reset{
+    border-radius: 0px 20px 20px 0px;
+    background-color:khaki;
+}
