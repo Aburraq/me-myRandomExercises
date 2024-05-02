@@ -23,3 +23,5 @@ In this exercise, I created a dynamic table manipulation tool. You can add new e
 I created an offcanvas bottom of the page explaining to the user website's privacy policy. User can accept or reject the policy. If it is rejected or closed it will be off for 5 seconds and then reappear. Also User's action is stored in local storage to be used legally. 
 ## Exercise 10:
 It's number 10 so I coded a full weather app. Basically you can learn weather forecast with this app. Just write a name of a city and see the magic. 
+## Exercise 11:
+What is better than planning a day and saving it to local storage. So I decided to code it. Also, try to make it super user-friendly. Go check it out.
