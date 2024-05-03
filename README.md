@@ -25,3 +25,5 @@ I created an offcanvas bottom of the page explaining to the user website's priva
 It's number 10 so I coded a full weather app. Basically you can learn weather forecast with this app. Just write a name of a city and see the magic. 
 ## Exercise 11:
 What is better than planning a day and saving it to local storage. So I decided to code it. Also, try to make it super user-friendly. Go check it out.
+## Exercise 12:
+I have seen a project called Etch-e Sketch in Odin Project. I decided to code it cuz it was way different from the projects that i googled. To be honest, I love this project cuz of its visual aspects.
