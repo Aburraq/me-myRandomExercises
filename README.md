@@ -29,3 +29,5 @@ What is better than planning a day and saving it to local storage. So I decided 
 I have seen a project called Etch-e Sketch in Odin Project. I decided to code it cuz it was way different from the projects that i googled. To be honest, I love this project cuz of its visual aspects.
 ## Exercise 13:
 I did similar project on Java as well. Visually I was not satisfied with that one. Thus, here we go a brand new visually enjoying quiz game. I added a surprise in the end, you will see it when you complete quiz and press "Cheers" button.
+## Exercise 14:
+We all need to take a breathe in this busy life. However, it can be though to find an activity. So here we have bored app. Just generate a random activity or use advanced filter for tailor-made solutions. 
