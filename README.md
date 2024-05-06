@@ -31,3 +31,5 @@ I have seen a project called Etch-e Sketch in Odin Project. I decided to code it
 I did similar project on Java as well. Visually I was not satisfied with that one. Thus, here we go a brand new visually enjoying quiz game. I added a surprise in the end, you will see it when you complete quiz and press "Cheers" button.
 ## Exercise 14:
 We all need to take a breathe in this busy life. However, it can be though to find an activity. So here we have bored app. Just generate a random activity or use advanced filter for tailor-made solutions. 
+## Exercise 15:
+Well I have found another free api, so I had to use it. This time i used more some photos to obtain from the api as well. Eventually, you can find every serie and film in this app only by writing its name. Also I used a technic that ease the population frequency in search input, which would be helpful for websites a lot.
