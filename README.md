@@ -33,3 +33,5 @@ I did similar project on Java as well. Visually I was not satisfied with that on
 We all need to take a breathe in this busy life. However, it can be though to find an activity. So here we have bored app. Just generate a random activity or use advanced filter for tailor-made solutions. 
 ## Exercise 15:
 Well I have found another free api, so I had to use it. This time i used more some photos to obtain from the api as well. Eventually, you can find every serie and film in this app only by writing its name. Also I used a technic that ease the population frequency in search input, which would be helpful for websites a lot.
+## Exercise 16:
+I coded a password generator by manipulating String and ASCII values. I worked on organizing characters efficiently using data structures and algorithms. It's like crafting a reliable tool for generating tough passwords, with a touch of tech savvy.
