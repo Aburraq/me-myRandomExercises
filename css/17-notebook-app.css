@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/notebook.gif);
+    background-size: 30px;
+    color:black;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin-top: 0px;
+    min-width:18rem;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 1px;
+}
+.create-note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#createBtn{
+    padding: 5px 25px;
+    background-color:rgba(95, 158, 160, 0.505);
+}
+.notebook{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.note{
+    color: white;
+    padding: 5px 15px;
+    width: 18rem;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: rgba(2, 11, 53, 0.7);
+}
+#eraserIcon, #saveIcon{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.pending{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+#headerInput{
+    font-weight: bold;
+    font-size: 2em;
+}
+#headerInput::placeholder, #detailsInput::placeholder{
+    color: rgba(255, 255, 255, 0.683);
+}
+#detailsInput{
+    height: 50px;
+    text-align:justify;
+    word-break: break-all;
+    font-size: 1em;
+}
+#detailsInput, #headerInput{
+    background-color: rgba(2, 11, 53, 0.409);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+i{
+    font-size: 1.3em;
+}
