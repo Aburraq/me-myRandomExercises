@@ -35,3 +35,5 @@ We all need to take a breathe in this busy life. However, it can be though to fi
 Well I have found another free api, so I had to use it. This time i used more some photos to obtain from the api as well. Eventually, you can find every serie and film in this app only by writing its name. Also I used a technic that ease the population frequency in search input, which would be helpful for websites a lot.
 ## Exercise 16:
 I coded a password generator by manipulating String and ASCII values. I worked on organizing characters efficiently using data structures and algorithms. It's like crafting a reliable tool for generating tough passwords, with a touch of tech savvy.
+## Exercise 17:
+I enjoyed coding to do list and decided to take it a step futther, and coded notebook app. I used flex wrap for reactive notes according to screen size, and saved the changes on local storage to retrieve saved notes whenever localhost is opened. Now i can add more details for my work as well as studies.
