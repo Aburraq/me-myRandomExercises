@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./css/18-age-calculator-style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Age Calculator</h1>
+
+        <div class="input-group">
+            <input type="date" id="dateInput">
+            <button type="button" id="calculateButton">Calculate</button>
+        </div>
+        <p id="output" class="old">Enter your birthday to learn your exact age</p>
+    </div>
+
+    <script>
+        const inputEl = document.getElementById("dateInput");
+        const buttonEl = document.getElementById("calculateButton");
+        const outputEl = document.getElementById("output");
+
+        buttonEl.addEventListener("click", () => {
+            if(!Boolean(inputEl.value)){
+                outputEl.innerText = "Please enter your birthday first!";
+            }
+
+            const now = new Date();
+            
+            const bDate = inputEl.value;
+            const bYear = +bDate.slice(0,4);
+            let ageYear = (now.getFullYear()) - bYear;
+
+
+            const bMonth = +bDate.slice(5,7);
+            let ageMonth = (now.getUTCMonth() + 1) - bMonth;
+            
+            const bDay = +bDate.slice(8);
+            let ageDay = (now.getDate() + 1) - bDay - 1;
+
+            if(ageMonth < 0){
+                ageMonth += 12;
+                ageYear -= 1;
+            }
+            if(ageDay < 0){
+                ageDay += 30;
+                ageMonth -= 1 ;
+            }
+
+            if(ageYear < 20){
+                outputEl.classList.remove("old");
+                outputEl.classList.add("young");
+            } else if(ageYear > 19 && ageYear < 65){
+                outputEl.classList.remove("old");
+                outputEl.classList.add("normal");
+
+            }
+
+            outputEl.innerText = `You are ${ageYear} year, ${ageMonth} month, ${ageDay} day years old`;
+            if(ageMonth == 0 && ageDay == 0){
+            outputEl.innerText = `Happy Birthday!!! You are exactly ${ageYear} years old`;
+            }
+        });
+
+        
+
+
+    </script>
+
+</body>
+</html>
