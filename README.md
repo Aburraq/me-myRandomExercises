@@ -37,3 +37,5 @@ Well I have found another free api, so I had to use it. This time i used more so
 I coded a password generator by manipulating String and ASCII values. I worked on organizing characters efficiently using data structures and algorithms. It's like crafting a reliable tool for generating tough passwords, with a touch of tech savvy.
 ## Exercise 17:
 I enjoyed coding to do list and decided to take it a step futther, and coded notebook app. I used flex wrap for reactive notes according to screen size, and saved the changes on local storage to retrieve saved notes whenever localhost is opened. Now i can add more details for my work as well as studies.
+## Exercise 18:
+A friend told me "We are getting old", and i decided to refute his argument by coding age calculator which calculates the age year, month and day basis. This code has some styling that indicates people below 65 are not old. In fact, above 65 is OK as well, probably I will amend the code when I am 65 :)
