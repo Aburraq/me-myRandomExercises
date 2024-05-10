@@ -1,0 +1,98 @@
+:root{
+    --color1: #1c2127;
+    --color2: #0b385f;
+    --color3: #3373b0;
+    --color4: #bed4e9;
+    --color5: #e7f1fb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--color1);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--color2), var(--color3));
+    padding: 10px;
+}
+.card{
+    width: 24rem;
+    max-width: 540px;
+    margin: 100px auto 20px auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: var(--color5);
+    box-shadow: 1px 3px 5px 3px var(--color2);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+h1::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    border-radius: 3px;
+    background: var(--color3);
+    position: absolute;
+    bottom: -7.5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.quote{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.quote::before, .quote::after{
+    content: '"';
+}
+.author{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: .75rem;
+    position: relative;
+}
+.author::before{
+    content: "";
+    width: 5px;
+    height: 1px;
+    background-color: var(--color3);
+    position: absolute;
+    top: 50%;
+    left: -10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 0;
+}
+#generate, #share{
+    padding: 6px 10px;
+    outline: .5px solid var(--color1);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: var(--color1);
+    transition: all 0.5s ease-in;
+}
+#generate{
+    background-color: var(--color3);
+}
+
+#generate:hover{
+    background-color: var(--color5);
+}
+#share{
+    background-color: #657786;
+}
+#share:hover, #share i:hover{
+    background-color: var(--color2);
+    color: var(--color5);
+}
