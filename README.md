@@ -39,3 +39,5 @@ I coded a password generator by manipulating String and ASCII values. I worked o
 I enjoyed coding to do list and decided to take it a step futther, and coded notebook app. I used flex wrap for reactive notes according to screen size, and saved the changes on local storage to retrieve saved notes whenever localhost is opened. Now i can add more details for my work as well as studies.
 ## Exercise 18:
 A friend told me "We are getting old", and i decided to refute his argument by coding age calculator which calculates the age year, month and day basis. This code has some styling that indicates people below 65 are not old. In fact, above 65 is OK as well, probably I will amend the code when I am 65 :)
+## Exercise 20:
+Quote generator app that motivates you with valuable qutoes from different authors or philospohers. Also you can share the quote on X, which can be useful for social media interactions.
