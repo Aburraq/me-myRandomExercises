@@ -54,5 +54,8 @@ Expanding on the concept of a to-do list, I created a notebook app for more comp
 ## Exercise 18
 When a friend joked about getting old, I decided to prove them wrong by creating an age calculator. I added a touch of humor to the styling, indicating that age is just a number. Who knows, maybe I'll update the code when I hit that milestone myself!
 
-## Exercise 20
+## Exercise 19
 Feeling inspired, I built a quote generator app. It offers motivational quotes from different authors or philosophers, perfect for uplifting spirits. And yes, you can share these quotes on social media too, spreading the positivity!
+
+## Exercise 20
+I created a QR code generator app. It helps users make QR codes for payments, contacts, or anything else they need. It's simple to use with options to customize colors and sizes. Perfect for quick sharing and organizing information.
