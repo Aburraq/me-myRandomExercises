@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width: 100%;
+    min-width: 540px;
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 10px;
+    background-size: cover;
+}
+.card{
+    width: 54rem;
+    height: 60%;
+    margin: 100px auto 0px;
+    background: url("https://images.pexels.com/photos/629162/pexels-photo-629162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items:center;
+}
+.timeGroup{
+    font-size: 48px;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.buttonGroup{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#stop, #play, #restart{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgba(83, 126, 40, 0.174);
+    color: white;
+    outline: 1px solid rgba(83, 126, 40, 1);
+}
