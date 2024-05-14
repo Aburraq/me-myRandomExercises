@@ -59,3 +59,6 @@ Feeling inspired, I built a quote generator app. It offers motivational quotes f
 
 ## Exercise 20
 I created a QR code generator app. It helps users make QR codes for payments, contacts, or anything else they need. It's simple to use with options to customize colors and sizes. Perfect for quick sharing and organizing information.
+
+## Exercise 21
+I created a stopwatch to keep track of time. To be honest, it seemed me quite easy in the first glance. However, as setInterval() is an async function, i needed to arrange functions again and again to make the buttons working perfectly. Otherwise, the buttons were not working perfectly and more than one stopwatch is started when play button is clicked twice. Eventually, it really helps me to understand how async functions work in JS. 
