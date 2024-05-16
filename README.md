@@ -65,3 +65,6 @@ I created a stopwatch to keep track of time. To be honest, it seemed me quite ea
 
 ## Exercise 22
 I coded a push notification sending buttons. I used animation, transition and translation to make the UI experience softer and relaxing. 
+
+## Exercise 23
+I enjoy music a lot. In fact, I do music production as hobby. And decided to create spotify-like music player card. Also, I added range input to adjust the music for better UI experience.
