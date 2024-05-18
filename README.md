@@ -71,3 +71,6 @@ I enjoy music a lot. In fact, I do music production as hobby. And decided to cre
 
 ## Exercise 24
 I have seen this calculator app nearly everywhere. And, I decided to code it when I dont have many exercises left. Unlike tutorial videos and codes, I coded it as concise as possible by utilizing JS methods. By doing that, even if html file is changes, JS will react accordingly. Meaning that you can add up your new operator and numbers and it adapts to them.
+
+## Exercise 25
+I have coded a simple password hider. You can write your password in hidden way, and you can check whether you have any typo by pressing the unlock icon. Small part of a sign up/log in page.
