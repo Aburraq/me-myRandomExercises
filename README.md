@@ -74,3 +74,6 @@ I have seen this calculator app nearly everywhere. And, I decided to code it whe
 
 ## Exercise 25
 I have coded a simple password hider. You can write your password in hidden way, and you can check whether you have any typo by pressing the unlock icon. Small part of a sign up/log in page.
+
+## Exercise 26
+I have coded a password strength checker. Basically, there are passwrods that can be cracked easily, the main idea is setting a password that can be protected from the malevolent third parties. I used regular expressions to achieve this. Additionally, I added password hider feature from my last exercise.
