@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke App</title>
+    <link rel="stylesheet" href="./css/27-joke-app.css">
+</head>
+<body>
+
+
+    <div class="container">
+
+
+        <div class="input-group">
+
+            <div class="advanced-input-group display-none" id="advancedInputGroup">
+
+                <h3>Category</h3>
+                <div class="category-list">
+                    <select name="select" class="select-category" id="select">
+                        <option class="any category" value="Any" selected> Any </option>
+                        <option class="programming category" value="Programming"> Programming </option>
+                        <option class="misc category" value="Miscellaneous"> Miscellaneous </option>
+                        <option class="dark category" value="Dark"> Dark </option>
+                        <option class="pun category" value="Pun"> Pun </option>
+                        <option class="spooky category" value="Spooky"> Spooky </option>
+                        <option class="christmas category" value="Christmas"> Christmas </option>
+
+                    </select>
+
+                </div>
+                
+                <h3>Blacklist</h3>
+                <div class="blacklist-buttons">
+                    <button class="nsfw blacklist" value="nsfw">NSFW</button>
+                    <button class="religous blacklist" value="religious">Religious</button>
+                    <button class="political blacklist" value="political">Political</button>
+                    <button class="racist blacklist" value="racist">Racist</button>
+                    <button class="sexist blacklist" value="sexist">Sexist</button>
+                    <button class="explicit blacklist" value="explicit">Explicit</button>
+                </div>
+
+
+
+                <h3>Amount of Jokes</h3>
+                <input type="number" placeholder="Amount of Jokes" id="amount" min="1" max="10">
+
+            </div>
+
+            <button class="generate" id="generate">Generate joke</button>
+
+            <button class="filter" id="filter">Advanced Filter</button>
+
+            <div class="output-container">
+                <h1 id="output"></h1>
+            </div>
+            
+        </div>
+
+        
+    </div>  
+
+    <script src="./js/27-joke-app.js"></script>
+</body>
+</html>

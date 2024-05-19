@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.container{
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, crimson, darkblue);
+    padding: 3px;
+}
+.input-group{
+    width: 24rem;
+    margin: 50px auto;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid rgba(192, 192, 192, 0.546);
+    box-shadow: 3px 5px 10px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.generate{
+    color: crimson;
+    padding: 3px 5px 3px 5px;
+    margin-top: 10px;
+}
+.output-container{
+    color: white;
+}
+#output{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.filter{
+    color: crimson;
+    padding: 3px 5px 3px 5px;
+    margin-top: 10px;
+}
+.advanced-input-group{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.category-list{
+    color: white;
+}
+.select-category{
+    color: darkblue;
+    width: 150px;
+    text-align: center;
+}
+.category{
+    color: darkblue;
+    text-align: center;
+}
+.blacklist-buttons{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.blacklist{
+    background-color: darkcyan;
+    color: white;
+    width: 100px;
+    height: 25px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 1px cyan;
+}
+.active{
+    background-color: black;
+}
+#amount{
+    color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+.display-none{
+    display: none;
+}
