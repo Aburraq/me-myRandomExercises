@@ -77,3 +77,6 @@ I have coded a simple password hider. You can write your password in hidden way,
 
 ## Exercise 26
 I have coded a password strength checker. Basically, there are passwrods that can be cracked easily, the main idea is setting a password that can be protected from the malevolent third parties. I used regular expressions to achieve this. Additionally, I added password hider feature from my last exercise.
+
+## Exercise 27
+I have not been coding really complex exercises as I am super busy. However, this sunday, I decided to sit on a coffeeshop and code something with API. While checking what kind of app I can code, I stumbled upon [joke api](https://sv443.net/jokeapi/v2/). Some jokes are quite offensive, so blacklist filter is adviced for sensitive people. Also, you can choose amount of joke which has a different mapping than normal one.
