@@ -80,3 +80,6 @@ I have coded a password strength checker. Basically, there are passwrods that ca
 
 ## Exercise 27
 I have not been coding really complex exercises as I am super busy. However, this sunday, I decided to sit on a coffeeshop and code something with API. While checking what kind of app I can code, I stumbled upon [joke api](https://sv443.net/jokeapi/v2/). Some jokes are quite offensive, so blacklist filter is adviced for sensitive people. Also, you can choose amount of joke which has a different mapping than normal one.
+
+## Exercise 28
+I coded light theme to dark theme switcher. Increasing screen time may harm your eyes, I experienced it first-hand. 
