@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+*::placeholder{
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(185deg, orange, greenyellow);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 36rem;
+    margin: 50px auto 25px;
+    background-color: rgba(128, 0, 128, 0.457);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    border-radius: 10px;
+}
+.first-name, .last-name, .phone-number, .address{
+    width: 80%;
+    height: 50px;
+    background-color: rgba(255, 255, 0, 0.628);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 10px 0px 20px;
+    position: relative;
+}
+input, textarea{
+    width: 200px;
+    max-height: 100%;
+    position: absolute;
+    right: 25%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    vertical-align: center;
+    resize: none;
+}
+textarea{
+    padding-top: 15px;
+}
+
+.validation{
+    position: absolute;
+    right: 15px;
+}
+.validation i, .validation span{
+    color: crimson;
+    font-size: 10px;
+}
+.validation span{
+    font-size: 12px;
+}
+#button {
+    width: 18rem;
+    height: 2rem;
+    margin: 20px auto 25px auto;
+    background-color: rgba(0, 0, 0, 0.164);
+    border: 2.5px solid orange;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#button:hover {
+    background-color: rgba(0, 0, 0, 0.678);
+    border: 2.5px solid rgba(255, 166, 0, 0.68);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.valid{
+    color: green;
+    font-weight: bold;
+}
+
+.display-none{
+    display: none;
+}
