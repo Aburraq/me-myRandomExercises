@@ -1,4 +1,5 @@
 # Exercises
+Welcome to my 30-day coding challenge! It all began with a single exercise that piqued my interest, and I couldn't resist the urge to keep going. What started as a 10-day challenge quickly evolved as I discovered more exciting exercises to tackle. Coding while listening to music has become one of my favorite pastimes, pushing me to extend this challenge further. Here, you'll find the results of my 30-day coding journey. If I had more time, I'd continue indefinitely! Stay tuned for my next challenge, where I'll be diving into React and Next.js.
 
 ## Exercise 1
 I stumbled upon this awesome review page design via a link: [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub). Working on it felt less like a chore and more like a journey filled with coding adventures.
@@ -86,3 +87,6 @@ I coded light theme to dark theme switcher. Increasing screen time may harm your
 
 ## Exercise 29
 I have written down all the Array and String methods, and I realized I havent used some of them. Then I came up with coding a sign up page and added validation for each input by using unused methods and regex. There are many sources to validate inputs like bootstrap, formik, react hook form etc. However, I believe it is always good to learn the logic behind of them and try to code something similar to them to understand them better. 
+
+## Exercise 30
+I decided to code something different than usual, and come up with an idea of text reader. To do this, I used SpeechSynthesisUtterance method, map the voices in select element. Learning new concepts always make me excited, and this project was the peak for sure. 
