@@ -83,3 +83,6 @@ I have not been coding really complex exercises as I am super busy. However, thi
 
 ## Exercise 28
 I coded light theme to dark theme switcher. Increasing screen time may harm your eyes, I experienced it first-hand. 
+
+## Exercise 29
+I have written down all the Array and String methods, and I realized I havent used some of them. Then I came up with coding a sign up page and added validation for each input by using unused methods and regex. There are many sources to validate inputs like bootstrap, formik, react hook form etc. However, I believe it is always good to learn the logic behind of them and try to code something similar to them to understand them better. 
